@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <div class="dashboard-container">
+        <aside class="cosmic-sidebar">
+            <div class="sidebar-header">
+                <div class="user-avatar">
+                    <i class="fas fa-user-astronaut"></i>
+                </div>
+                <h3 id="dashboardUsername">Cosmic Traveler</h3>
+                <p id="dashboardEmail">stellar@id.com</p>
+            </div>
+            
+            <nav class="cosmic-nav">
+                <ul>
+                    <li class="active"><a href="#"><i class="fas fa-star"></i> Stellar Overview</a></li>
+                    <li><a href="#"><i class="fas fa-rocket"></i> Quantum Projects</a></li>
+                    <li><a href="#"><i class="fas fa-atom"></i> Particle Settings</a></li>
+                    <li><a href="#"><i class="fas fa-meteor"></i> Cosmic Analytics</a></li>
+                    <li><a href="#"><i class="fas fa-satellite"></i> Orbital Tools</a></li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <button id="logoutBtn" class="glow-button small">
+                    <span>Terminate Session</span>
+                </button>
+            </div>
+        </aside>
+        
+        <main class="cosmic-main">
+            <header class="cosmic-header">
+                <h1>Stellar Command Center</h1>
+                <div class="cosmic-date" id="currentDate">Stardate: Loading...</div>
+            </header>
+            
+            <div class="cosmic-cards">
+                <div class="card nebula-card">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Quantum Metrics</h3>
+                    <div class="card-value" id="metric1">78%</div>
+                    <div class="card-progress">
+                        <div class="progress-bar" style="width: 78%"></div>
+                    </div>
+                </div>
+                
+                <div class="card galaxy-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Energy Output</h3>
+                    <div class="card-value" id="metric2">1.21 GW</div>
+                    <div class="card-progress">
+                        <div class="progress-bar" style="width: 65%"></div>
+                    </div>
+                </div>
+                
+                <div class="card supernova-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Shield Integrity</h3>
+                    <div class="card-value" id="metric3">92%</div>
+                    <div class="card-progress">
+                        <div class="progress-bar" style="width: 92%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cosmic-data">
+                <div class="data-section">
+                    <h2><i class="fas fa-satellite-dish"></i> Recent Anomalies</h2>
+                    <div class="anomaly-list" id="anomalyList">
+                        <!-- Anomalies will be loaded here -->
+                    </div>
+                </div>
+                
+                <div class="data-section">
+                    <h2><i class="fas fa-globe-americas"></i> Cosmic Weather</h2>
+                    <div class="weather-display" id="weatherDisplay">
+                        <!-- Weather data will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

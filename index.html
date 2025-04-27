@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <div class="login-container">
+        <div class="logo">
+            <span class="logo-part-1">NEBULA</span>
+            <span class="logo-part-2">ACCESS</span>
+        </div>
+        
+        <form id="loginForm" class="auth-form">
+            <div class="input-group">
+                <input type="email" id="loginEmail" required>
+                <label for="loginEmail">Stellar ID</label>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" id="loginPassword" required>
+                <label for="loginPassword">Quantum Key</label>
+                <div class="underline"></div>
+            </div>
+            
+            <button type="submit" class="glow-button">
+                <span>Initiate Sequence</span>
+            </button>
+            
+            <div class="form-footer">
+                <p>New cosmic traveler? <a href="signup.html">Create singularity</a></p>
+            </div>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Singularity</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <div class="login-container">
+        <div class="logo">
+            <span class="logo-part-1">CREATE</span>
+            <span class="logo-part-2">SINGULARITY</span>
+        </div>
+        
+        <form id="signupForm" class="auth-form">
+            <div class="input-group">
+                <input type="text" id="signupName" required>
+                <label for="signupName">Cosmic Designation</label>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="input-group">
+                <input type="email" id="signupEmail" required>
+                <label for="signupEmail">Stellar ID</label>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" id="signupPassword" required>
+                <label for="signupPassword">Quantum Key</label>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" id="signupConfirmPassword" required>
+                <label for="signupConfirmPassword">Confirm Key</label>
+                <div class="underline"></div>
+            </div>
+            
+            <button type="submit" class="glow-button">
+                <span>Generate Singularity</span>
+            </button>
+            
+            <div class="form-footer">
+                <p>Existing entity? <a href="index.html">Access nebula</a></p>
+            </div>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
