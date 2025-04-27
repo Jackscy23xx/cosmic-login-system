@@ -5,7 +5,7 @@ const logoutBtn = document.getElementById('logoutBtn');
 
 // Google Apps Script Deployment ID
 const scriptId = 'AKfycbxjFJIlqYkMsM5ARgFugXZpTPyPagh1V0Bqj7513mzvEJip_HHbloU842Omd_mDWar5'; // Replace with your actual script ID
-const scriptUrl = `https://script.google.com/macros/s/AKfycbxjFJIlqYkMsM5ARgFugXZpTPyPagh1V0Bqj7513mzvEJip_HHbloU842Omd_mDWar5/exec`;
+const scriptUrl = `https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbxjFJIlqYkMsM5ARgFugXZpTPyPagh1V0Bqj7513mzvEJip_HHbloU842Omd_mDWar5/exec`;
 
 // Check if user is logged in
 document.addEventListener('DOMContentLoaded', () => {
