@@ -4,8 +4,8 @@ const signupForm = document.getElementById('signupForm');
 const logoutBtn = document.getElementById('logoutBtn');
 
 // Google Apps Script Deployment ID
-const scriptId = 'AKfycbwPwHkSyk7GQYHsfWa9bYgsIX16gK7_8ep9cfHeh335N9MMISsL8z9QZQ7N4TFtBg'; // Replace with your actual script ID
-const scriptUrl = `https://script.google.com/macros/s/AKfycbwPwHkSyk7GQYHsfWa9bYgsIX16gK7_8ep9cfHeh335N9MMISsL8z9QZQ7N4TFtBg/exec`;
+const scriptId = 'AKfycbxjFJIlqYkMsM5ARgFugXZpTPyPagh1V0Bqj7513mzvEJip_HHbloU842Omd_mDWar5'; // Replace with your actual script ID
+const scriptUrl = `https://script.google.com/macros/s/AKfycbxjFJIlqYkMsM5ARgFugXZpTPyPagh1V0Bqj7513mzvEJip_HHbloU842Omd_mDWar5/exec`;
 
 // Check if user is logged in
 document.addEventListener('DOMContentLoaded', () => {
